@@ -9,7 +9,7 @@ const config = {
     'pk.eyJ1Ijoid2FubmVzLXZsYWFuZGVyZW4iLCJhIjoiY2xqb2Q0MDUxMDhjeDNtcGIxNjF4a2lrbyJ9.TmBAlCtIR-SS3YXwXvUJlA', // add mapbox token
   CSV: 'https://docs.google.com/spreadsheets/d/1n6ShJPfEFqQ7YkOfeCrumFHsNfDMck4QffeR1m3ufu4/gviz/tq?tqx=out:csv&sheet=Sheet1', // replace <document uuid> with the document uuid
   center: [4.56,51.204], // adjust center if necessary, you can pick a view on mapbox, in the bottom left you see the zoom and center
-  zoom: 12.5, // adjust zoom if necessary
+  zoom: 12, // adjust zoom if necessary
   title: '', // choose a title
   description:
     '', // add a short description
