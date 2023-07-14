@@ -584,7 +584,7 @@ const bounds = [
 map.setMaxBounds(bounds);
 
 map.addControl(new mapboxgl.AttributionControl({
-  customAttribution: '<a href="https://omgeving.vlaanderen.be/nl/ena-economisch-netwerk-albertkanaal"></a><a href="https://vlaanderen.be">Vlaamse Overheid</a>'
+  customAttribution: '<a href="https://omgeving.vlaanderen.be/nl/ena-economisch-netwerk-albertkanaal">ENA</a> <a href="https://vlaanderen.be">Vlaamse Overheid</a>'
 }));
 
 class LogoVlaanderen {
