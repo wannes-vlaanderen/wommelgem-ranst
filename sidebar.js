@@ -12,14 +12,13 @@ function createSidebar() {
   div1.id = "div1"
   const div2 = document.createElement("div")
   div2.classList.add('flex-child', 'w-full', 'w360-ml', 'absolute', 'static-ml', 'left', 'bottom')
-  div2.style.backgroundColor = "#cccccc"
   const div3 = document.createElement("div")
   div3.classList.add('flex-parent', 'flex-parent--column')
   const div4 = document.createElement("div")
   div4.classList.add('flex-child', 'flex-child--grow')
   const sidebar = document.createElement("div")
   sidebar.id = 'sidebarA'
-  sidebar.classList.add('flex-parent', 'flex-parent--column-ml', 'flex-parent--center-main', 'theme', 'py12', 'px12')
+  sidebar.classList.add('flex-parent', 'flex-parent--column-ml', 'flex-parent--center-main', 'py12', 'px12')
   sidebar.backgroundColor = "#cccccc"
   const title = document.createElement("h3")
   title.id = "title"
