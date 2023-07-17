@@ -12,20 +12,19 @@ function createSidebar() {
   div1.id = "div1"
   const div2 = document.createElement("div")
   div2.classList.add('flex-child', 'w-full', 'w360-ml', 'absolute', 'static-ml', 'left', 'bottom')
-  const div3 = document.createElement("div")
-  div3.classList.add('flex-parent', 'flex-parent--column')
-  const div4 = document.createElement("div")
-  div4.classList.add('flex-child', 'flex-child--grow')
+  div2.style.backgroundColor = "#f5f4ec"
   const sidebar = document.createElement("div")
   sidebar.id = 'sidebarA'
   sidebar.classList.add('flex-parent', 'flex-parent--column-ml', 'flex-parent--center-main', 'py12', 'px12')
-  sidebar.backgroundColor = "#cccccc"
+  sidebar.style.backgroundColor = "#f5f4ec"
   const title = document.createElement("h3")
   title.id = "title"
   title.classList.add('txt-l-ml', 'txt-m', 'txt-bold', 'mb6', 'mr0-ml', 'mr24', 'align-center', 'block')
+  title.style.fontSize = 24
   const description = document.createElement("p")
   description.id = 'description'
   description.classList.add('txt-s', 'py12', 'none', 'block-ml')
+  description.style.fontSize = 13
   
   const buttonDiv = document.createElement("div")
   buttonDiv.classList.add('flex-parent', 'flex-parent--center-main', 'relative-ml', 'absolute', 'right', 'top', 'mt0-ml', 'px6')
@@ -39,8 +38,6 @@ function createSidebar() {
   sidebar.appendChild(buttonDiv) // option to add button for filters here
   sidebar.appendChild(listing)
   
-  div4.appendChild(sidebar)
-  div3.appendChild(div4)
   div2.appendChild(sidebar)
   div1.appendChild(div2)
   
