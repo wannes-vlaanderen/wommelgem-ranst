@@ -10,7 +10,7 @@ const config = {
   CSV: 'https://docs.google.com/spreadsheets/d/1n6ShJPfEFqQ7YkOfeCrumFHsNfDMck4QffeR1m3ufu4/gviz/tq?tqx=out:csv&sheet=Sheet1', // replace <document uuid> with the document uuid
   center: [4.56,51.204], // adjust center if necessary, you can pick a view on mapbox, in the bottom left you see the zoom and center
   zoom: 12, // adjust zoom if necessary
-  title: '', // choose a title
+  title: 'Gebiedsprogramma\nWommelgem-Ranst', // choose a title
   description:
     '', // add a short description
   sideBarInfo: ['Titel',], // the first item is displayed in bold, call it the 'title' of that project, the second is displayed under it kind of like a very short descriptsion
