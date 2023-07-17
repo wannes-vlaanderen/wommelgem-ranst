@@ -17,34 +17,6 @@ const config = {
   popupInfo: ['Titel'], // this is the title of the balloon you get when you click on a location
   popupInfo2: ['Link'], // this is the link under 'meer info'
   popupInfo3: ['Description'], // this is the short description displayed in the balloon
-  filters: [ // add filters
-    {
-      type: 'checkbox', 
-      title: 'Projectoproep:', // title of the filter
-      columnHeader: 'Projectoproep', // column in the csv file to filter on
-      listItems: [ // you have to list all of the filter items manually
-        'Groenblauwe dooradering 1.0',
-        'Groenblauwe dooradering 2.0',
-        'Proeftuinen ontharding 1.0',
-        'Proeftuinen ontharding 2.0',
-        'Groenblauwe parels',
-      ],
-    },
-    {
-      type: 'dropdown',
-      title: 'Gebruikte methodes:',
-      columnHeader: 'Methodes', // Case sensitive - must match spreadsheet entry
-      listItems: ['Groene verblijfruimtes', 'Openleggen ingekokerde waterlopen', 'Ruimte voor rivieren en beken', 'Verhogen infiltratiecapaciteit', 'Biodivers groen', 'Sloop van constructies', 'Hergebruik materialen', 'Verbeteren bodemkwaliteit'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
-    },
-    {
-      type: 'dropdown',
-      title: 'Terreinfunctie bij aanvang',
-      columnHeader: 'Terreinfunctie',
-      listItems: [
-        'Bedrijventerrein', 'Straat/wandel- en fietsweg','Sport- en speelterrein', 'Waterloop of -lichaam', 'Privédomein', 'Parking', '(Markt)plein', 'Agrarisch gebied', 'Open ruimte', 'Park'
-      ],
-    },
-  ],
 };
 
 
