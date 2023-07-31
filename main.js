@@ -1,5 +1,5 @@
 config = {
-  style: 'mapbox://styles/gop-vlaanderen/clkqv691100o101pbgfnug9eu',
+  style: 'mapbox://styles/gop-vlaanderen/clkqshbss002601qv8nxe2xrs',
   accessToken: 'pk.eyJ1IjoiZ29wLXZsYWFuZGVyZW4iLCJhIjoiY2xrbWUxd3JxMDUzMTNmcXM5b3BmZzlpbiJ9.aBM2HJPp13PlB0uCFexfYg',
   CSV: 'https://docs.google.com/spreadsheets/d/1n6ShJPfEFqQ7YkOfeCrumFHsNfDMck4QffeR1m3ufu4/gviz/tq?tqx=out:csv&sheet=Sheet1',
   center: [4.56,51.204],
