@@ -10,7 +10,7 @@ config = {
   tabTitle: "Gebiedsprogramma Wommelgem-Ranst",
   // sidebar.js
   title: 'Gebiedsprogramma\nWommelgem-Ranst',
-  description: 'Aan te vullen',
+  description: '',
   sideBarInfo: ['Titel'],
   // legende.js
   legende: {
