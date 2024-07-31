@@ -87,16 +87,19 @@ function createPopup(currentFeature) {
   let content = document.createElement("p");
   content.innerHTML = currentFeature.properties[config.popupInfo3];
   let br_again = document.createElement("br");
-  let link = document.createElement("a");
-  link.href = currentFeature.properties[config.popupInfo2];
-  link.innerText = "Meer info";
-  link.target = "_blank";
   
   div.appendChild(h3);
   div.appendChild(br);
   div.appendChild(content);
   div.appendChild(br_again);
-  div.appendChild(link);
+
+  if (currentFeature.properties[config.popupInfo2] != "/") {
+    let link = document.createElement("a");
+    link.href = currentFeature.properties[config.popupInfo2];
+    link.innerText = "Meer info";
+    link.target = "_blank";
+    div.appendChild(link);
+  }
   
   new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
